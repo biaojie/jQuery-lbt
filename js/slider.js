@@ -68,7 +68,7 @@
         self.timer = setTimeout(() => {
             self.move('rightBtn');
             self.flag = true;
-        }, 2000);
+        }, self.opt.duration);
     }
     Slider.prototype.move = function (attr) {
         if (this.flag) {
