@@ -27,7 +27,7 @@
 
         var circle = $('<div class="circle"></div>');
         var ulstr = $('<ul class="imgList"></ul>');
-        var btn = $('<div class="btn"><span class= "leftBtn">左</span><span class="rightBtn">右</span></div >');
+        var btn = $('<div class="btn"><span class= "leftBtn"><</span><span class="rightBtn">></span></div >');
         var circleul = $('<ul></ul>');
         var imgstr = '';
         var circlestr = '';
